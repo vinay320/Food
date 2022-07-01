@@ -72,7 +72,7 @@ nav ul li a
 }
 .sec1 .container .p1
 {
-    background-image: url(./food1.jpg);
+    background-image: url(../img/food1.jpg);
     background-size: cover;
     width:80%;
     height: 700px;
@@ -212,7 +212,7 @@ padding: 15px 0px;
 .sec3 .container .p1
 {
     margin-top: 70px;
-    background-image: url(./stanton-book.jpg);
+    background-image: url(../img/stanton-book.jpg);
     background-size: cover;
     width:80%;
     height: 700px;
@@ -274,7 +274,7 @@ padding: 15px 0px;
     height: 600px;
     
     padding-top: 80px;
-    background-image: url(./charred-corn-salad-with-creamy-lime-dressing12.jpg);
+    background-image: url(../img/charred-corn-salad-with-creamy-lime-dressing12.jpg);
 }
 
 .sec4 .icon
@@ -314,7 +314,7 @@ span
 }
 .sec1 .container-A .p1-A
 {
-    background-image: url(./About.jpg);
+    background-image: url(../img/About.jpg);
     background-size: cover;
     width:70%;
     margin-right: 80px;
