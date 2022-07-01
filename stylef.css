@@ -1,0 +1,428 @@
+*
+{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+    margin: 0;
+}
+.sec1
+{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(255, 229, 210);
+}
+
+.sec1 .nav-bar
+{
+    margin-right: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.sec1 .nav-bar img
+{
+    width: 100px;
+    height: 70px;
+    margin: 10px 40px;
+    cursor: pointer;
+}
+nav ul
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+nav ul li
+{
+    list-style: none;
+    margin-top: 42px;
+}
+nav ul li a 
+{
+   font-size: 18px;
+   text-decoration: none;
+   color: black;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+   font-weight: normal;
+   margin-right:15px ;
+   cursor: pointer;
+   
+}
+
+.sec1 .nav-bar nav ul li a img
+{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.sec1 .container
+{
+    padding-left: 50px;
+    padding-top: 30px;
+    margin: 10px;
+    width:100%;
+    display: flex;
+    height: 700px;
+    
+}
+.sec1 .container .p1
+{
+    background-image: url(./food1.jpg);
+    background-size: cover;
+    width:80%;
+    height: 700px;
+   
+}
+.sec1 .container .p2
+{
+    padding-left: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    width:80%;
+    height: 700px;
+    
+    padding-right: 10%;
+}
+.sec1 .container .p2 h3
+{
+    padding-top: 25px;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+.sec1 .container .p2 h1
+{
+    padding: 0;
+    margin: 0;
+    font-size: 37px;
+    font-weight: normal;
+    line-height: 45px;
+}
+
+.sec2 .p1
+{
+    width: 100%;
+    height: 400px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.sec2 .p1 h1
+{
+    color: coral;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec2 .p1 h3
+{
+    font-weight: normal;
+    padding: 0px 400px;
+    padding-top: 40px;
+    text-align: center;
+    
+}
+.sec2 .p2
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sec2 .p2 .line
+{
+
+    width: 420px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    
+}
+
+.sec2 .p2 .line .part1 img
+{
+    width: 100%;
+    height: 550px;
+    cursor: pointer;
+}
+
+.sec2 .p2 .line .part1 h2
+{padding: 15px 0px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.sec2 .p2 .line .part1 h1 a
+{
+    font-size: 30px;
+    text-decoration: none;
+    color: coral;
+    font-weight: bold;    
+    font-weight: normal;
+    cursor: pointer;
+    padding: 15px 0px;
+}
+.sec2 .p2 .line .part1 h3
+{
+font-size: 18px;
+font-weight: normal;
+padding: 15px 0px;
+}
+.sec2 .p2 .line .part1 h3 a
+{
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: normal;
+    color: coral;
+    padding: 15px 0px;
+}
+.sec2 .p2 .line .part1
+{
+    
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+    height: auto;
+    
+}
+.sec3
+{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(255, 229, 210);
+}
+.sec3 .container
+{
+    padding-left: 50px;
+    padding-top: 30px;
+    margin: 10px;
+    width:100%;
+    display: flex;
+    height: 700px;
+    
+}
+.sec3 .container .p1
+{
+    margin-top: 70px;
+    background-image: url(./stanton-book.jpg);
+    background-size: cover;
+    width:80%;
+    height: 700px;
+    
+   
+}
+.sec3 .container .p2 button
+{   margin-top: 40px;
+    padding: 20px 0px;
+    margin-right: 65%;
+    background-color: rgb(251, 132, 132);
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.sec3 .container .p2
+{
+    padding-left: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    width:80%;
+    height: 700px;
+    
+    padding-right: 10%;
+}
+.sec3 .container .p2 h3
+{
+    padding-top: 25px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    padding-bottom: 50px;
+}
+.sec3 .container .p2 h1
+{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+.sec4
+{
+    background-color: rgb(255, 229, 210);
+    width: 100%;
+    min-height: 300px;
+   padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4 .pic
+{
+    width: 90%;
+    height: 600px;
+    
+    padding-top: 80px;
+    background-image: url(./charred-corn-salad-with-creamy-lime-dressing12.jpg);
+}
+
+.sec4 .icon
+{
+    margin-top: 100px;
+}
+.sec4 .last h3
+{
+    margin-top: 30px; 
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+    margin-bottom: 70px;
+}
+span
+{
+    color: peru;
+}
+.sec4 .last h3 a 
+{
+    color: peru;
+    
+}
+
+
+/* About */
+.sec1 .container-A
+{
+    padding-left: 50px;
+    padding-top: 30px;
+    margin: 10px;
+    width:100%;
+    display: flex;
+    height: 700px;
+    margin-top: 80px;
+    
+}
+.sec1 .container-A .p1-A
+{
+    background-image: url(./About.jpg);
+    background-size: cover;
+    width:70%;
+    margin-right: 80px;
+    height: 700px;
+   
+}
+.sec1 .container-A .p2-A
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    width:80%;
+    height: 700px;
+    
+    padding-right: 10%;
+}
+.sec1 .container-A .p2-A h3
+{
+    
+    font-size: 37px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+    padding-bottom: 30px;
+}
+.sec1 .container-A .p2-A h1
+{
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    font-family: poppins;
+    font-weight: normal;
+    line-height: 33px;
+    
+}
+
+
+/* Contect */
+.sec1 .container-C
+{
+    padding-left: 50px;
+   flex-direction: column;
+    margin:0px 10px;
+    width:50%;
+    margin: 0px 25%;
+    display: flex;
+    height: 1000px;
+    
+    
+}
+.sec1 .container-C .p2-C
+{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;    */
+    width: 100%;
+    margin-top: 9%;
+    height: 700px;
+    padding-right: 15%;
+}
+.sec1 .container-C .p2-C h3
+{
+    margin-left: 15px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.sec1 .container-C .p2-C h1
+{
+    padding: 0;
+    margin-left: 15px;
+    font-size: 17px;
+    font-family: poppins;
+    font-weight: normal;
+    line-height: 30px;
+    
+}
+.sec1 .container-C .p2-C h2
+{
+    padding: 0;
+    margin-top:20px;
+    font-size: 25px;
+    font-family: poppins;
+    font-weight: normal;
+    line-height: 30px;
+    margin-left: 15px;
+    
+}
+
+.sec1 .container-C .con-1
+{
+    
+    width: 100%;
+    height: 65px;
+    margin-bottom: 50px;
+    border: 1px solid red;
+}
+.sec1 .container-C .con-2
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 800px;
+    border: 1px solid red;
+}
+
+.sec1 .container-C  .con-2 .form
+{
+    display: flex;
+    flex-direction: column;
+    
+}
