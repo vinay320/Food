@@ -1,101 +1,94 @@
 *
 {
-    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
     box-sizing: border-box;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
     margin: 0;
 }
-.sec1
+body
 {
-    width: 100%;
-    height: 900px;
-    background-color: rgb(255, 231, 213);
-}
-
-.sec1 .nav-bar
-{
-    margin-right: 55px;
+    font-family: cursive;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+li
+{
+    list-style: none;
+}
+.nav
+{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     
+    
+    color: red;
 }
-.sec1 .nav-bar img
+.nav .img img
 {
     width: 100px;
     height: 70px;
     margin: 10px 40px;
     cursor: pointer;
 }
-nav ul
+.menu
 {
     display: flex;
+    gap: 5em;
+    font-size: 18px;
+
+}
+.menu ul
+{
+    display: flex;
+}
+.menu li
+{
+    padding: 5px 14px;
+}
+li a img
+{
+    padding-right: 20px;
+}
+
+.banner
+{
+    padding: 0px;
+      background-color: rgb(248, 236, 222);
+     
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
     flex-direction: row;
-    
-}
-nav ul li
-{
-    list-style: none;
-    margin-top: 42px;
-}
-nav ul li a 
-{
-   font-size: 18px;
-   text-decoration: none;
-   color: black;
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
-   font-weight: normal;
-   margin-right:15px ;
-   cursor: pointer;
-   
-}
 
-.sec1 .nav-bar nav ul li a img
-{
-    width: 25px;
-    height: 25px;
-    margin: 5px;
-    margin-top: 0;
-    cursor: pointer;
 }
-
-.sec1 .container
+.banner .p1
 {
-    padding-left: 50px;
-    padding-top: 30px;
-    margin: 10px;
-    width:100%;
-    display: flex;
+    padding: 70px;
+}
+.banner .p1 img
+{
+    width: 600px;
     height: 700px;
-    
 }
-.sec1 .container .p1
-{
-    background-image: url(../img/food1.jpg);
-    background-size: cover;
-    width:80%;
-    height: 700px;
-   
-}
-.sec1 .container .p2
-{
-    padding-left: 110px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
-    width:80%;
-    height: 700px;
-    
-    padding-right: 10%;
-}
-.sec1 .container .p2 h3
+.banner .p1 h3
 {
     padding-top: 25px;
     font-size: 25px;
     padding-bottom: 50px;
 }
-.sec1 .container .p2 h1
+.banner .p1 h1
 {
     padding: 0;
     margin: 0;
@@ -103,25 +96,25 @@ nav ul li a
     font-weight: normal;
     line-height: 45px;
 }
-
-.sec2 .p1
+.rec
 {
-    width: 100%;
-    height: 400px;
-   
+    margin-top: 150px;
+}
+.rec .p1
+{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
-.sec2 .p1 h1
+.rec .p1 h1
 {
     color: coral;
     
     font-family: Arial, Helvetica, sans-serif;
 }
-.sec2 .p1 h3
+.rec .p1 h3
 {
     font-weight: normal;
     padding: 0px 400px;
@@ -129,13 +122,14 @@ nav ul li a
     text-align: center;
     
 }
-.sec2 .p2
+
+.rec .p2
 {   
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-.sec2 .p2 .line
+.rec .p2 .line
 {
 
     width: 420px;
@@ -147,19 +141,19 @@ nav ul li a
     
 }
 
-.sec2 .p2 .line .part1 img
+.rec .p2 .line .part1 img
 {
     width: 100%;
     height: 550px;
     cursor: pointer;
 }
 
-.sec2 .p2 .line .part1 h2
+.rec .p2 .line .part1 h2
 {padding: 15px 0px;
     font-size: 18px;
     font-weight: normal;
 }
-.sec2 .p2 .line .part1 h1 a
+.rec .p2 .line .part1 h1 a
 {
     font-size: 30px;
     text-decoration: none;
@@ -169,13 +163,13 @@ nav ul li a
     cursor: pointer;
     padding: 15px 0px;
 }
-.sec2 .p2 .line .part1 h3
+.rec .p2 .line .part1 h3
 {
 font-size: 18px;
 font-weight: normal;
 padding: 15px 0px;
 }
-.sec2 .p2 .line .part1 h3 a
+.rec .p2 .line .part1 h3 a
 {
     font-size: 17px;
     cursor: pointer;
@@ -183,7 +177,7 @@ padding: 15px 0px;
     color: coral;
     padding: 15px 0px;
 }
-.sec2 .p2 .line .part1
+.rec .p2 .line .part1
 {
     
     display: flex;
@@ -194,10 +188,9 @@ padding: 15px 0px;
     
 }
 .sec3
-{
+{   background-color: rgb(251, 242, 231);
     width: 100%;
     height: 900px;
-    background-color: rgb(255, 229, 210);
 }
 .sec3 .container
 {
@@ -209,15 +202,12 @@ padding: 15px 0px;
     height: 700px;
     
 }
-.sec3 .container .p1
+.sec3 .container .p1 img
 {
-    margin-top: 70px;
-    background-image: url(../img/stanton-book.jpg);
-    background-size: cover;
-    width:80%;
-    height: 700px;
     
-   
+    width: 700px;
+    height:700px;
+    margin-top: 100px;
 }
 .sec3 .container .p2 button
 {   margin-top: 40px;
@@ -243,7 +233,7 @@ padding: 15px 0px;
 .sec3 .container .p2 h3
 {
     padding-top: 25px;
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
     padding-bottom: 50px;
@@ -258,7 +248,7 @@ padding: 15px 0px;
 }
 .sec4
 {
-    background-color: rgb(255, 229, 210);
+    
     width: 100%;
     min-height: 300px;
    padding-top: 30px;
@@ -268,13 +258,12 @@ padding: 15px 0px;
     align-items: center;
 }
 
-.sec4 .pic
+.sec4 .pic img
 {
-    width: 90%;
-    height: 600px;
+    width: 100%;
+    height: 700px;
     
     padding-top: 80px;
-    background-image: url(../img/charred-corn-salad-with-creamy-lime-dressing12.jpg);
 }
 
 .sec4 .icon
@@ -298,339 +287,282 @@ span
     color: peru;
     
 }
-
-
-/* About */
-.sec1 .container-A
-{
-    padding-left: 50px;
-    padding-top: 30px;
-    margin: 10px;
-    width:100%;
-    display: flex;
-    height: 700px;
-    margin-top: 80px;
-    
-}
-.sec1 .container-A .p1-A
-{
-    background-image: url(../img/About.jpg);
-    background-size: cover;
-    width:70%;
-    margin-right: 80px;
-    height: 700px;
-   
-}
-.sec1 .container-A .p2-A
-{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
-    width:80%;
-    height: 700px;
-    
-    padding-right: 10%;
-}
-.sec1 .container-A .p2-A h3
-{
-    
-    font-size: 37px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
-    padding-bottom: 30px;
-}
-.sec1 .container-A .p2-A h1
-{
-    padding: 0;
-    margin: 0;
-    font-size: 17px;
-    font-family: poppins;
-    font-weight: normal;
-    line-height: 33px;
-    
-}
-
-
-/* Contect */
-.sec1 .container-C
-{
-    padding-left: 50px;
-   flex-direction: column;
-    margin:0px 10px;
-    width:50%;
-    margin: 0px 25%;
-    display: flex;
-    height: 1100px;
-    
-    
-}
-.sec1 .container-C .p2-C
-{
-    
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center;    */
-    width: 100%;
-    margin-top: 9%;
-    height: 700px;
-    padding-right: 15%;
-}
-.sec1 .container-C .p2-C h3
-{
-    margin-left: 15px;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-.sec1 .container-C .p2-C h1
-{
-    padding: 0;
-    margin-left: 15px;
-    font-size: 17px;
-    font-family: poppins;
-    font-weight: normal;
-    line-height: 30px;
-    
-}
-.sec1 .container-C .p2-C h2
-{
-    padding: 0;
-    margin-top:20px;
-    font-size: 25px;
-    font-family: poppins;
-    font-weight: normal;
-    line-height: 30px;
-    margin-left: 15px;
-    
-}
-
-.sec1 .container-C .con-1
-{
-    
-    width: 80%;
-    height:100px;
-    margin-bottom: 40px;
-    border: 1px solid red;
-}
-.sec1 .container-C .con-2
-{
-    
-    margin-top: 20px;
-    width: 80%;
-    height: 800px;
-    border: 1px solid red;
-}
-
-.sec1 .container-C  .con-2 
-{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.sec1 .container-C  .con-2 form
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.sec1 .container-C  .con-2 form .line1 
-{
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-.sec1 .container-C  .con-2 form .line1 .a1
-{
-    display: flex;
-    flex-direction: column;
-    
-}
-.sec1 .container-C  .con-2 form .line1 .a1 input
-{
-    width: 270px;
-    height: 50px;
-    border: 0.5px solid gray ;
-    background-color: white;
-    border-radius: 2px;
-    background-color: white;
-    
-
-}
-.sec1 .container-C  .con-2 form .line1 .a1 label
-{
-    font-size: 18px;
-    font-weight: normal;
-    padding-bottom: 10px;
-}
-.sec1 .container-C  .con-2 form #email
-{
-    width: 97%;
-    display: flex;
-    margin-top:5px;
-    margin-left: 8px;
-    height: 50px;
-    background-color: white;
-    border: 0.5px solid gray ;
-    background-color: white;
-    border-radius: 2px;
-}
-.sec1 .container-C  .con-2 form #message
-{
-    width: 97%;
-    display: flex;
-    margin-left: 8px;
-    height: 100px;
-    border: 0.5px solid gray ;
-    background-color: white;
-    border-radius: 2px;
-}
-.sec1 .container-C  .con-2 form label
-{
-    font-size: 20px;
-    padding-left: 15px;
-}
-.sec1 .container-C  .con-2 form button
-{
-    margin: 10px;
-    width: 110px;
-    margin-top: 20px;
-    height: 70px;
-    background-color: rgb(250, 142, 103);
-    color: white;
-    border: none;
-}
-
 .sec1 .heads
-{   padding-top: 100px;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;text-align: center;
-    margin-top: 70px;
-    margin: 0px 5%;
-    border-bottom: 1px solid gray;
-    padding-bottom: 60px;
-    
-}
-.sec1 .shopp
 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 70px;
-    height: 550px ;
-}
-.sec1 .shopp img
-{   margin-top: 40px;
-    
-    width: 50%;
-    height: 100vh;
-}
-.sec1 .shopp a
-{
-    text-decoration: none;
-    color: black;
-    
-}
-.sec1 .shopp a h2,h3
-{
-    padding-top: 10px;
-    font-weight: normal;
-}
-
-/*
-food item 1
-*/
-.container-i1-1
-{
-    display: flex;
-    margin-top:70px ;
-    flex-direction: column;
-    width: 700px;
-   align-items: center;
-   margin-left: 27%;
-}
-
-.container-i1-1 h3
-{
-    font-size: 17px;
-    margin-bottom: 30px;
-}
-.container-i1-1 h3 span a
-{
-
-    text-decoration: none;
-    color: black;
-}
-.container-i1-1 h1
-{
-    font-size: 72px;
-    line-height: 100px;
-    color: rgb(245, 138, 100);
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0px 40px;
     display: flex;
     justify-content: center;
-    text-align: center;
+    font-size: 50px;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 50px;
+    padding-bottom: 60px;
+}
+.sec1 .shopp
+{   margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     font-weight: normal;
 }
-.container-i1-1 img
+.sec1 .shopp img
 {
     width: 700px;
+    height: 700px;
 }
-.container-i1-1 .para  
+
+/* media */
+@media screen and (max-width:720px) {
+    .sec1 .shopp img
 {
-    margin-top: 100px;
+    width: 600px;
+    height: 600px;
+}
+    .menu
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu ul
+    {
+        display: flex;
+        flex-direction: column;
+    }
     
-   
-}
-.container-i1-1 .para p
+    .rec
+    {   margin-top: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .rec .p1 h1
 {
-    font-size: 17px;
-    font-weight: normal;
+    color: coral;
     
-    line-height: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 12px;
-}
-.container-i1-1 a 
-{
-    margin-top: 60px;
-    text-decoration: none;
-    color:black;
-}
- .next a
-{
-   margin-left: 50%;
-   text-align: right;
-   justify-content: right;
-   align-content: flex-end;
-   display: flex;
-   flex-direction: row;
-   margin: 60px 40px;
-}
-.next a
-{
-    text-decoration: none;
-    color: black;
-}
- .next a h1
- 
-{
-    text-align: right;
-    font-size: 45px;
-    
-    color: black;
     font-family: Arial, Helvetica, sans-serif;
+}
+.rec .p1
+{
+    width: 400px;
+    text-align: justify;
+}
+.rec .p1 h3
+{
+    font-weight: normal;
+    padding-top: 40px;
+    
+}
+
+.rec .p2
+{
+    display: flex;
+    flex-direction: column;
+}
+.rec .p2 .line
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+.rec .p2 .line .part1
+{
+    margin-left: 20%;
+}
+.sec3 .container 
+{
+    display: flex;
+    flex-direction: column;
+}
+.sec3 .container .p1 img
+{
+    margin-left: 17%;
+    width: 500px;
+    height:500px;
+    margin-top: 100px;
+}
+.sec4
+{
+    margin-top: 50px;
+}
+}
+@media screen and (max-width:960px) 
+{
+  
+  .banner
+  {
+    background-color: white;
+     margin-top: 40%;
+    display: flex;
+    flex-direction:column ;
+  }
+  
+  .rec .p1
+  { 
+    margin-top: 20%;
+    margin-left: 60px;
+    justify-content: center;
+    text-align: justify;
+    display: flex;
+    flex-direction:column ; 
+  }  
+  .rec .p1 h3
+{
+    font-weight: normal;
+    padding-top: 40px;
+    text-align: justify;
+    
+}  
+.rec .p2 .line 
+{
+    margin-left: 10px;
+}
+.rec .p2 .line .part1
+{
+    padding: 10px;
+}
+.sec3 .container 
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec3
+{
+    background-color: white;
+    margin-bottom: 20%;
+}
+.sec4
+{
+    margin-top: 80%;
+    margin-left: 14%;
+}
+}
+@media screen and (max-width:620px) 
+{
+    .sec1 .shopp img
+    {
+        width: 500px;
+        height: 500px;
+    }
+  .banner
+  { margin-top: 80%;
+    margin-left: 60px;
+    justify-content: center;
+    display: flex;
+    flex-direction:column ;
+    margin-bottom: 80%;
+  }
+  .rec .p1
+  {
+    margin-top: 60%;
+    margin-left: 60px;
+    justify-content: center;
+    display: flex;
+    flex-direction:column ; 
+  }  
+  .rec .p1 h3
+{
+    font-weight: normal;
+    padding-top: 40px;
+    text-align: justify;
+    
+}
+.sec3
+{
+    margin-bottom: 80%;
+}
+.sec3 .container .p2
+{
+    width: 400px;
+   display: flex;
+   flex-direction: column;
+   text-align: justify;
+   margin-top: 25%;
+} 
+.sec4 .pic 
+{
+    width: 700px;
+    margin-left:45%;
+}
+}
+@media screen and (max-width:480px) 
+{
+    .sec1 .shopp img
+    {
+        width: 350px;
+        height: 350px;
+    }
+    .nav
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+  .banner
+
+  { margin-top: 120%;
+    margin-left: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction:column ;
+  }
+  .banner .p1 img
+  {
+    display: flex;
+    text-align: justify;
+    margin-left: 80px;
+  }
+  
+  .rec .p1
+  {
+    margin-top: 70%;
+    margin-left: 60px;
     
     display: flex;
-    
-    justify-content: space-around;
-    text-align: center;
+    flex-direction:column ; 
+  }  
+  .rec .p1 h3
+{
     font-weight: normal;
+    padding-top: 40px;
+    text-align: justify;
+    
+}
+
+.sec3 .container .p2
+
+{   width:400px;
+    
+   display: flex;
+   flex-direction: column;
+   text-align: justify;
+  
+}  
+.sec4 .pic
+{
+width: 700px;
+margin-left: 80%;
+}
+}
+
+@media screen and (max-width:1320px) 
+{
+    .rec .p2
+    {
+        margin-left: 10%;
+    }
+    .rec .p2 .line 
+    {
+        margin-left: 10px;
+    }
+    .sec3 .container 
+{
+    display: flex;
+    flex-direction: column;
+}   
+.sec4
+{
+    margin-top: 30%;
+    margin-left: 14%;
+}
+.sec4 .pic img
+{
+    width: 80%;
+}
 }
