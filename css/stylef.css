@@ -309,6 +309,153 @@ span
     height: 700px;
 }
 
+/* contect */
+.sec1 .p2-C
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 400px;
+    justify-content: left;
+    text-align: left;
+}
+.sec1 .p2-C h3
+{
+font-size: 50px;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 30px;
+}
+.sec1 .p2-C h1
+{
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+.sec1 .p2-C h2
+{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.sec1 .con-1
+{   margin-left: 400px;
+    width: 700px;
+    height: 70px;
+    border: 1px solid red;
+}
+
+.sec1 .con-2
+{   margin-top: 60PX;
+    margin-left: 400px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    border: 1px solid red;
+}
+.sec1 .con-2 form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1 .con-2 label
+{
+    font-size: 20px;
+    margin: 20px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec1 .con-2 form  .line1
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.sec1 .con-2 form .line1 .a1
+{
+    display: flex;
+    flex-direction: column;
+}
+.sec1 .con-2 input
+{
+    background-color: white;
+    width: 330px;
+    height: 50px;
+    border: 1px solid gray;
+}
+.sec1 .con-2 #email
+{
+    margin-left: 14px;
+}
+textarea
+{
+    margin-left: 20px;
+    width: 660px;
+    height: 120px;
+    border: 1px solid gray;
+    background-color: white;
+}
+.sec1 .con-2 button
+{
+    width: 80px;
+    height: 50px;
+    margin: 20px;
+    color: white;
+    border: none;
+    background-color: rgb(211, 142, 116);
+}
+/* pages */
+.container-i1-1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.container-i1-1 h3
+{
+    font-weight: normal;
+    margin: 50px 0px;
+}
+.container-i1-1 h1
+{
+    font-size: 80px;
+    text-align: center;
+    padding: 0px 400px;
+    line-height: 100px;
+    font-weight: normal;
+    margin-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(199, 109, 76);
+}
+.container-i1-1 .para
+{
+    padding: 100px 360px;
+}
+.container-i1-1 .para p
+{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 32px;
+}
+.next
+{   display: flex;
+    flex-direction: row;
+    justify-content: right;    
+}
+.next h1
+{
+    text-align: right;
+}
+.next-1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 /* media */
 @media screen and (max-width:720px) {
     .sec1 .shopp img
@@ -381,6 +528,16 @@ span
 {
     margin-top: 50px;
 }
+.container-i1-1
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 200px;
+    align-items: center;
+    
+}
 }
 @media screen and (max-width:960px) 
 {
@@ -433,6 +590,7 @@ span
     margin-top: 80%;
     margin-left: 14%;
 }
+
 }
 @media screen and (max-width:620px) 
 {
@@ -494,6 +652,10 @@ span
         display: flex;
         justify-content: space-around;
     }
+    .banner
+    {
+        width: 400px;
+    }
   .banner
 
   { margin-top: 120%;
@@ -511,6 +673,7 @@ span
   
   .rec .p1
   {
+    width: 400px;
     margin-top: 70%;
     margin-left: 60px;
     
@@ -539,10 +702,21 @@ span
 width: 700px;
 margin-left: 80%;
 }
+.container-i1-1
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: center;
+    padding-left: 400px;
+    align-items: center;
+    
+}
 }
 
 @media screen and (max-width:1320px) 
 {
+  
     .rec .p2
     {
         margin-left: 10%;
@@ -564,5 +738,46 @@ margin-left: 80%;
 .sec4 .pic img
 {
     width: 80%;
+}
+.sec1 .p2-C
+{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec1 .con-1
+{
+    margin-left: 0px;
+    margin-top: 60px;
+    width: 700px;
+}
+.sec1 .con-2
+{   margin-left: 0px;
+    margin-top: 60px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    border: 1px solid red;
+}
+.container-i1-1 .para
+{
+    width: 800px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 50px;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+.container-i1-1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
 }
 }
