@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/stylef.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+
+       *
+       {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        
+
+        }
+        body
+        {
+          margin: 0;
+          padding: 0;
+        }
+        
+        #cart
+        {
+            width: 475px; height:60px; margin-left: 47px; font-size: 20px; border: none; color: white; background-color: #f08e80;
+        }
+        #cart:hover{
+            background-color: #f8aca0;
+        }
+       
+    </style>
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg p-2 ms-3 mt-3 ">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-4 p-1 " href="#">
+            <img src="https://cdn-icons-png.flaticon.com/512/3170/3170733.png" alt="" width="70" height="70" class="d-inline-block ">
+      
+    </a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="../index.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="./About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="./contect.html">Contect</a>
+              </li>
+              <li class="nav-item">
+                <a style="text-decoration: underline; text-underline-offset: 8px;" class="nav-link active fs-4" aria-current="page" href="./shop.html">Shop</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Links
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href=""><img src="../img/icons8-instagram-30.png" alt=""> Instagram</a></li>
+                  <li><a class="dropdown-item" href=""><img src="../img/icons8-youtube-30.png" alt="">Youtube</a></li>
+                  <li><a class="dropdown-item" href=""><img src="../img/icons8-twitter-30.png" alt="">Twitter</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link active fs-4" aria-current="page" ><p id="num" style="position: absolute;  padding-left: 27px; margin-top:-4px; font-weight: bold;" >0</p><img id="con" src="../img/icons8-favorite-cart-30.png" alt=""></a></li>
+              
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    
+      <div class="container p-5 m-0 mt-5 ms-5 ">
+        <div class="row gx-5">
+          <div class="col">
+           <div class="p-0 "><img style="width: 700px;" src="../img/stanton-book.jpg" alt=""></div>
+          </div>
+          <div class="col p-0 ">
+            <div class="p-5  bg-transparent"><h3 style="font-size: 44px; padding-bottom: 20px;">Stanton Recipes Ed. 1</h3>
+                <h2 style="padding-bottom: 20px;">&#8377 25000.00</h2>
+                
+                <p>Lorem ipsum dolor sit amet nullam vel ultricies metus, at tincidunt arcu. Morbi vestibulum, ligula ut efficitur mollis, mi massa accumsan justo, accumsan auctor orci lectus ac ipsum. Proin porta nisl sem, ac suscipit lorem dignissim et. Curabitur euismod nec augue vitae dictum. Nam mattis, massa quis consequat molestie, erat justo vulputate tortor, a sollicitudin turpis felis eget risus. Aliquam viverra urna felis, eu ornare enim consectetur sed.
+                    <br>
+                    <br>
+                    <p>Quantity:</p>
+                <input style="width: 150px; height:70px; font-size: 20px; padding-left: 20px; border: 1px solid gray; color: black; background-color: transparent;" type="number"  name="" id="inp" placeholder="0"></div>
+                <button id="cart" onclick="fxt()">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+   
+<div class="sec4">
+   
+    <div class="icon">
+        
+                <a href=""><img src="../img/icons8-instagram-30.png" alt=""></a>
+                <a href=""><img src="../img/icons8-twitter-30.png" alt=""></a>
+                <a href=""><img src="../img/icons8-youtube-30.png" alt=""></a>
+                
+       
+    </div>
+    <div class="last"><h3>Made with <span><a href="">Squarespace</a></h3></span></div>
+    
+
+    <script>
+        
+        function fxt()
+        {
+        document.getElementById("cart").innerHTML="Adding...";
+        setTimeout(() => {
+            fxt2();
+        }, 2500);
+        }
+        function fxt2()
+        {
+            document.getElementById("cart").innerHTML="Addded!";
+            setTimeout(() => {
+            fxt3();
+        }, 1500);
+        }
+        function fxt3()
+        {
+            document.getElementById("cart").innerHTML="Add To Cart";
+            
+         
+            var x=document.getElementById("num");
+            var input=document.getElementById("inp").value;
+            var y=x.textContent;
+            var num1=Number(y);
+            var num2=Number(input)
+            document.getElementById("num").innerHTML=num1+num2;
+           
+            
+        }
+        
+        
+
+        </script>
+</body>
+</html>
